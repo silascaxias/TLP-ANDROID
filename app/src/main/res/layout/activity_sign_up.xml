@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    tools:ignore="NamespaceTypo">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_login"
+        tools:context=".authentication.SignUpActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="339dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/txt_signup"
+            android:textColor="@color/color_default"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="339dp"
+            android:layout_height="418dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_layout"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.47000003">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent">
+
+                <EditText
+                    android:id="@+id/txtTel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:autofillHints=""
+                    android:backgroundTint="@color/color_default"
+                    android:backgroundTintMode="multiply"
+                    android:ems="10"
+                    android:hint="@string/tel"
+                    android:inputType="phone"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/color_default"
+                    android:textColorHint="@color/color_default"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginEnd="10dp"
+                    android:autofillHints="@string/hint_email"
+                    android:backgroundTint="@color/color_default"
+                    android:backgroundTintMode="multiply"
+                    android:ems="10"
+                    android:focusedByDefault="true"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="20dp"
+                    android:textColor="@color/color_default"
+                    android:textColorHint="@color/color_default"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:autofillHints=""
+                    android:backgroundTint="@color/color_default"
+                    android:backgroundTintMode="multiply"
+                    android:ems="10"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/color_default"
+                    android:textColorHint="@color/color_default"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:autofillHints="Name"
+                    android:backgroundTint="@color/color_default"
+                    android:backgroundTintMode="multiply"
+                    android:ems="10"
+                    android:hint="@string/name"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/color_default"
+                    android:textColorHint="@color/color_default"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
+
+                <Button
+                    android:id="@+id/btnSignUp"
+                    android:layout_width="296dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_dafault_designe"
+                    android:elevation="14dp"
+                    android:text="@string/txt_signup"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    app:layout_constraintBottom_toTopOf="@+id/txtLogin"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txtCpf"
+                    app:layout_constraintVertical_bias="0.59000003" />
+
+                <TextView
+                    android:id="@+id/txtLogin"
+                    android:layout_width="292dp"
+                    android:layout_height="28dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/txt_login"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.489"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

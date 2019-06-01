@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5C3977</color>
+    <color name="colorPrimaryDark">#1A3545</color>
+    <color name="colorAccent">#673AB7</color>
+    <color name="colorDelete">#C01333</color>
+    <color name="card_body">#77155BAA</color>
+    <color name="colorBody">#4D1373C0</color>
+    <color name="color_default">#5B3A79</color>
+    <color name="white">#D7FFFFFF</color>
+    <color name="color_default_scundary">#C01A3545</color>
+</resources>

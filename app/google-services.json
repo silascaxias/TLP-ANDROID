@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "895155109844",
+    "firebase_url": "https://sysapp-scaxias.firebaseio.com",
+    "project_id": "sysapp-scaxias",
+    "storage_bucket": "sysapp-scaxias.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895155109844:android:d6395d8563e54e4d",
+        "android_client_info": {
+          "package_name": "system.scaxias.sysapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895155109844-vl9fvhsbmmucuv35j5silnupifp812gs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "system.scaxias.sysapp",
+            "certificate_hash": "f3b5768bcb18bd22358cc11096215ae0e1cdcf4c"
+          }
+        },
+        {
+          "client_id": "895155109844-qu5f12e93m2bkln6ua3a833sks54ave7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "system.scaxias.sysapp",
+            "certificate_hash": "f47470e38ef54dec904e8bd2bf33dbf39a07e8ab"
+          }
+        },
+        {
+          "client_id": "895155109844-0np1nlqbu9sa416neq0sjaskgld27d7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfvO8tI5KJj2ymAqctsOqGHCsMERp8CyQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895155109844-0np1nlqbu9sa416neq0sjaskgld27d7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
