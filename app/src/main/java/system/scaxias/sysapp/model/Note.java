@@ -10,6 +10,12 @@ public class Note implements Serializable {
 
     public Note(){}
 
+    public Note(String id, String title, String content, String date) {
+        this.id = id;
+        this.title = title;
+        this.content = content;
+        this.date = date;
+    }
 
     public String getId() {
         return id;
